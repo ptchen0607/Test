@@ -6,7 +6,7 @@ import pandas as pd
 
 
 from talib import abstract
-
+print("hello world")
 ## 取得資料
 dl = DataLoader()
 df = dl.taiwan_stock_daily(stock_id='0050', start_date='2003-01-01', end_date='2023-02-25')
